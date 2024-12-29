@@ -1,8 +1,8 @@
 # CleanUnroll
 
-[![Hex.pm Version](http://img.shields.io/hexpm/v/search.svg?style=flat)](https://hex.pm/packages/search)
-[![Hex Docs](https://img.shields.io/badge/hex%20docs-blue)](https://hexdocs.pm/search/search.html)
-[![Hex.pm License](http://img.shields.io/hexpm/l/search.svg?style=flat)](https://hex.pm/packages/search)
+[![Hex.pm Version](http://img.shields.io/hexpm/v/clean_unroll.svg?style=flat)](https://hex.pm/packages/clean_unroll)
+[![Hex Docs](https://img.shields.io/badge/hex%20docs-blue)](https://hexdocs.pm/clean_unroll)
+[![Hex.pm License](http://img.shields.io/hexpm/l/clean_unroll.svg?style=flat)](https://hex.pm/packages/clean_unroll)
 
 **Unroll URLs and remove their tracking parameters**
 
@@ -37,7 +37,7 @@ iex> CleanUnroll.unroll("https://t.co/shortened")
 
 ## License
 
-`CleanUnroll` is released under the [`Apache License 2.0`](https://github.com/elliotekj/search/blob/main/LICENSE).
+`CleanUnroll` is released under the [`Apache License 2.0`](https://github.com/elliotekj/clean_unroll/blob/main/LICENSE).
 
 ## About
 
