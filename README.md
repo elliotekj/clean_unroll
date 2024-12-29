@@ -22,17 +22,17 @@ end
 ## Examples
 
 ```elixir
-iex> CleanUnroll.clean_unroll("https://example.com/page?utm_source=twitter&id=123")
-{:ok, "https://example.com/page?id=123"}
+iex> CleanUnroll.clean_unroll("https://t.co/shortened-tracked")
+{:ok, "https://example.com/page?custom_param=value"}
 
-iex> CleanUnroll.clean_unroll("https://example.com/page?custom_param=value", ["custom_param"])
+iex> CleanUnroll.clean_unroll("https://t.co/shortened-tracked", ["custom_param"])
 {:ok, "https://example.com/page"}
 
 iex> CleanUnroll.clean("https://example.com/page?utm_source=twitter&id=123")
 "https://example.com/page?id=123"
 
 iex> CleanUnroll.unroll("https://t.co/shortened")
-{:ok, "https://example.com/full-url"}
+{:ok, "https://example.com/page"}
 ```
 
 ## License
